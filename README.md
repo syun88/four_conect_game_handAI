@@ -19,6 +19,10 @@ If you want to train the module from scratch, the sequence of execution files is
 hand_put_coin_ai.py simply uses webcamera and distinguishes and displays AI prediction results. 
 To end main.py, please use Ctrl+c to end the program.
 
+These programs can all be executed on the pc jetson nano.  PC can directly use the pip3 install MediaPipe installation method.  Please follow this process to install jetson nano https://google.github.io/mediapipe/getting_started/python.html
+gTTS install command:pip3 install gTTS
+pygame install command:pip3 install pygame
+
 手の認識の流れ。
 MediaPipe を使用して手の座標を取得し、新しいデータセット (csv ファイル) を生成します。 
 分類学習が完了したら、Landam Forest を使用してモデルを保存します (このモデルはモデル フォルダーに保存されます)。 
@@ -39,6 +43,12 @@ train中の自分の写真が多かったので、サンプル写真だけアッ
 モジュールをゼロからトレーニングする場合、実行ファイルの順序は data_Preprocessing.py → creat_model.py → main01.py で、終了方法は ctrl+c またはカメラ画面で esc を押します。 
 hand_put_coin_ai.py は単純にwebcameraを利用し、AI の予測結果を判別して表示します。  main.py を終了するには、Ctrl+c を使用してプログラムを終了してください。
 
+これらのプログラムはすべて、PC 或いはjetson nanoで実行できます。 
+PC は pip3 install MediaPipe インストール方法を直接使用できます。 
+jetson nanoの場合は公式に従ってインストールしてください https://google.github.io/mediapipe/getting_started/python.html
+gTTSをインストールpip3 install gTTS
+pygameをインストールpip3 install pygame
+
 手部分類的流程。利用MediaPipe取得手部座標並產生新的dataset (csv file)。
 再利用 Landam Forest 的分類學習完成後儲存模型此模型會存放在model檔案夾裡面。
 main .py是four connect 的只利用滑鼠移動硬幣以及點擊時會動作的版本也就是原型。
@@ -52,3 +62,7 @@ put_coin則是放下硬幣的動作的照片。由於我在學習時有本人的
 要從頭開始訓練模組的話執行檔案的順序為data_Preprocessing.py→creat_model.py→main01.py
 結束方法為ctrl+c 或者是在相機的畫面按下esc。
 hand_put_coin_ai.py 則是單純使用webcamera 並辨別顯示AI的預測結果。main.py的結束方法請利用Ctrl+c結束程式。
+
+這些程式皆可言在pc jetson nano上執行 。pc 可以直接利用 pip3 install MediaPipe 安裝方式。jetson nano請按照此流程安裝https://google.github.io/mediapipe/getting_started/python.html
+gTTS 安裝指令 pip3 install gTTS
+pygame 安裝指令 pip3 install pygame
