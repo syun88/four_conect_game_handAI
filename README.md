@@ -1,4 +1,6 @@
 # four_conect_game_handAI
+example video link1:https://youtu.be/lED6AqMGo1Y
+example video link1:https://youtu.be/5kvjuJ-v3p4
 Hand sorting process.  Use MediaPipe to get hand coordinates and generate a new dataset (csv file).
 Then use Landam Forest to store the model after the classification learning is completed. This model will be stored in the model folder. 
 main.py is the version of four connect that only uses the mouse to move the coin and click it, which is the prototype.
