@@ -22,6 +22,7 @@ To end main.py, please use Ctrl+c to end the program.
 These programs can all be executed on the pc jetson nano.  PC can directly use the pip3 install MediaPipe installation method.  Please follow this process to install jetson nano https://google.github.io/mediapipe/getting_started/python.html
 gTTS install command:pip3 install gTTS
 pygame install command:pip3 install pygame
+when use jetson nano main01.py line192: main.py line183:set sysfont = pygame.font.SysFont(None, 75)
 
 手の認識の流れ。
 MediaPipe を使用して手の座標を取得し、新しいデータセット (csv ファイル) を生成します。 
@@ -48,6 +49,7 @@ PC は pip3 install MediaPipe インストール方法を直接使用できま�
 jetson nanoの場合は公式に従ってインストールしてください https://google.github.io/mediapipe/getting_started/python.html
 gTTSをインストールpip3 install gTTS
 pygameをインストールpip3 install pygame
+jetson nano の時 main01.py line192: main.py line183:set sysfont = pygame.font.SysFont(None, 75)
 
 手部分類的流程。利用MediaPipe取得手部座標並產生新的dataset (csv file)。
 再利用 Landam Forest 的分類學習完成後儲存模型此模型會存放在model檔案夾裡面。
@@ -66,3 +68,4 @@ hand_put_coin_ai.py 則是單純使用webcamera 並辨別顯示AI的預測結果
 這些程式皆可言在pc jetson nano上執行 。pc 可以直接利用 pip3 install MediaPipe 安裝方式。jetson nano請按照此流程安裝https://google.github.io/mediapipe/getting_started/python.html
 gTTS 安裝指令 pip3 install gTTS
 pygame 安裝指令 pip3 install pygame
+jetson nano main01.py line192: main.py line183:set sysfont = pygame.font.SysFont(None, 75)
