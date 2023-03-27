@@ -67,7 +67,7 @@ put_coin則是放下硬幣的動作的照片。由於我在學習時有本人的
 結束方法為ctrl+c 或者是在相機的畫面按下esc。
 hand_put_coin_ai.py 則是單純使用webcamera 並辨別顯示AI的預測結果。main.py的結束方法請利用Ctrl+c結束程式。
 
-這些程式皆可言在pc jetson nano上執行 。pc 可以直接利用 pip3 install MediaPipe 安裝方式。jetson nano請按照此流程安裝https://google.github.io/mediapipe/getting_started/python.html
+這些程式皆可在pc jetson nano上執行 。pc 可以直接利用 pip3 install MediaPipe 安裝方式。jetson nano請按照此流程安裝https://google.github.io/mediapipe/getting_started/python.html
 gTTS 安裝指令 pip3 install gTTS
 pygame 安裝指令 pip3 install pygame
 jetson nano main01.py line192: main.py line183:set sysfont = pygame.font.SysFont(None, 75)
