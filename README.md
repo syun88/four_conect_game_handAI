@@ -1,8 +1,8 @@
-:::note warn
-can not work on python 3.12
-scikit == 1.2.0
-python3.10
-:::
+
+> [!WARNING]
+> can not work on python 3.12
+> scikit == 1.2.0
+> python3.10
 
 # four_conect_game_handAI
 example video link1:https://youtu.be/lED6AqMGo1Y
