@@ -1,6 +1,6 @@
 
 > [!WARNING]
-> can not work on python 3.12
+> when uae my model can not work on python 3.12
 > scikit == 1.2.0
 > python3.10
 
